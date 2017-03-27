@@ -2,7 +2,7 @@ function initLevel(numButterflies) {
 	var newLevel = {};
 	newLevel.maxScore = numButterflies;
 	newLevel.currentScore = 0;
-
+	alert("Collect 200 to Win. Don't press 'B'!");
 	// start the background at the top left edge
 	newLevel.background = {
 		x: 0,
