@@ -42,6 +42,11 @@ function initLevel(numButterflies) {
 			level.background.x -= player.xVelocity;
 		}
 
+		if (newLevel.maxScore > 200) {
+			
+			alert("You Win! WOW.");
+		}
+
 		// update the butterflies that are on screen
 		for (var index in level.butterflies) {
 			var butterfly = level.butterflies[index];
