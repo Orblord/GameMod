@@ -82,6 +82,9 @@ function updateGame () {
 			player.xVelocity--;
 		}
 	}
+	if (keys[66]) {
+		alert("YOU LOSE, spiritually at least. All future wins are tainted by this fact.");
+	}
 
 	// clear the canvas
 	context.clearRect(0, 0, canvas.width, canvas.height);
