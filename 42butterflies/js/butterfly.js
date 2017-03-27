@@ -6,7 +6,7 @@ function initButterfly (startingX, startingY) {
 
 	var butterflyImg = new Image();
 	butterflyImg.onload = function () {
-		newButterfly.width = 80;
+		newButterfly.width = 66;
 		newButterfly.height = butterflyImg.height;
 
 		newButterfly.spriteSheet = butterflyImg;
